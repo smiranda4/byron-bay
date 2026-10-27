@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es-UY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Byron Bay · Ropa oversize</title>
+<meta name="description" content="Buzos y canguros oversize unisex con el logo bordado. Hechos por dos hermanos en Uruguay. Envíos a todo el país y hasta 12 cuotas.">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600&family=DM+Mono:wght@400;500&family=Mr+Dafoe&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span class="topbar__full">Envíos a todo Uruguay · Hasta 12 cuotas con Mercado Pago</span>
+  <span class="topbar__short">Envíos a todo Uruguay · 12 cuotas</span>
+</div>
+
+<header class="nav">
+  <button class="nav__burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav__links" id="menu" aria-label="Principal">
+    <a href="#coleccion" data-filter-link="buzo">Buzos</a>
+    <a href="#coleccion" data-filter-link="hoodie">Hoodies</a>
+    <a href="#talles">Talles</a>
+    <a href="#nosotros">Nosotros</a>
+  </nav>
+  <a class="nav__logo" href="#">Byron Bay</a>
+  <div class="nav__actions">
+    <a class="nav__action-desktop" href="#">Buscar</a>
+    <a class="nav__action-desktop" href="#">Cuenta</a>
+    <a href="#" aria-label="Carrito, 0 productos"><span class="nav__action-desktop">Carrito </span>(0)</a>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero__media">
+    <!-- Reemplazar por la foto hero real: los dos con hoodies, playa o rambla (horizontal en escritorio, vertical en celular). -->
+    <picture>
+      <source media="(max-width: 899px)" srcset="img/hoodie-cacao.jpg">
+      <img src="img/hoodie-negro.jpg" alt="Hoodie / Canguro Byron Bay">
+    </picture>
+  </div>
+  <div class="hero__content">
+    <p class="eyebrow hero__eyebrow">Colección 01 · Oversize unisex</p>
+    <h1 class="hero__title">Buzos para días de mar</h1>
+    <p class="hero__text">Algodón suave, corte holgado y el logo bordado. Para las noches de playa y las mañanas con brisa. Hechos por dos hermanos en Uruguay.</p>
+    <div class="hero__ctas">
+      <a class="btn btn--dark" href="#coleccion">Ver colección</a>
+      <a class="btn btn--outline hero__cta-secondary" href="#talles">Guía de talles</a>
+    </div>
+  </div>
+</section>
+
+<section class="collection" id="coleccion">
+  <div class="collection__head">
+    <h2 class="h2">La colección</h2>
+    <div class="filters" role="group" aria-label="Filtrar">
+      <button type="button" class="chip is-active" data-filter="all" aria-pressed="true">Todo</button>
+      <button type="button" class="chip" data-filter="buzo" aria-pressed="false">Buzo / Crew neck</button>
+      <button type="button" class="chip" data-filter="hoodie" aria-pressed="false">Hoodie / Canguro</button>
+    </div>
+  </div>
+
+  <div class="products">
+    <article class="product" data-type="hoodie">
+      <div class="product__media">
+        <img src="img/hoodie-negro.jpg" alt="Hoodie / Canguro Negro" loading="lazy">
+        <span class="product__badge">Más vendido</span>
+      </div>
+      <div class="product__info">
+        <div class="product__name"><strong>Hoodie / Canguro</strong><span class="product__variant"><span data-color-label>Negro</span> · S · M</span></div>
+        <span class="product__price">$ —</span>
+      </div>
+      <div class="swatches" role="radiogroup" aria-label="Color">
+        <button type="button" class="swatch is-active" style="--c:#161412" data-color="Negro" data-img="img/hoodie-negro.jpg" role="radio" aria-checked="true" aria-label="Negro"></button>
+        <button type="button" class="swatch" style="--c:#6B4A33" data-color="Cacao" data-img="img/hoodie-cacao.jpg" role="radio" aria-checked="false" aria-label="Cacao"></button>
+        <button type="button" class="swatch" style="--c:#A3A09A" data-color="Gris" data-img="img/hoodie-gris.jpg" role="radio" aria-checked="false" aria-label="Gris"></button>
+      </div>
+    </article>
+
+    <article class="product" data-type="hoodie">
+      <div class="product__media">
+        <img src="img/hoodie-cacao.jpg" alt="Hoodie / Canguro Cacao" loading="lazy">
+      </div>
+      <div class="product__info">
+        <div class="product__name"><strong>Hoodie / Canguro</strong><span class="product__variant"><span data-color-label>Cacao</span> · S · M</span></div>
+        <span class="product__price">$ —</span>
+      </div>
+      <div class="swatches" role="radiogroup" aria-label="Color">
+        <button type="button" class="swatch" style="--c:#161412" data-color="Negro" data-img="img/hoodie-negro.jpg" role="radio" aria-checked="false" aria-label="Negro"></button>
+        <button type="button" class="swatch is-active" style="--c:#6B4A33" data-color="Cacao" data-img="img/hoodie-cacao.jpg" role="radio" aria-checked="true" aria-label="Cacao"></button>
+        <button type="button" class="swatch" style="--c:#A3A09A" data-color="Gris" data-img="img/hoodie-gris.jpg" role="radio" aria-checked="false" aria-label="Gris"></button>
+      </div>
+    </article>
+
+    <article class="product" data-type="buzo">
+      <div class="product__media">
+        <img src="img/crew-beige.jpg" alt="Buzo / Crew neck Beige" loading="lazy">
+      </div>
+      <div class="product__info">
+        <div class="product__name"><strong>Buzo / Crew neck</strong><span class="product__variant"><span data-color-label>Beige</span> · S · M</span></div>
+        <span class="product__price">$ —</span>
+      </div>
+      <div class="swatches" role="radiogroup" aria-label="Color">
+        <button type="button" class="swatch" style="--c:#161412" data-color="Negro" data-img="img/crew-negro.jpg" role="radio" aria-checked="false" aria-label="Negro"></button>
+        <button type="button" class="swatch swatch--light is-active" style="--c:#E6DACB" data-color="Beige" data-img="img/crew-beige.jpg" role="radio" aria-checked="true" aria-label="Beige"></button>
+        <button type="button" class="swatch" style="--c:#A3A09A" data-color="Gris" data-img="img/crew-gris.jpg" role="radio" aria-checked="false" aria-label="Gris"></button>
+        <button type="button" class="swatch" style="--c:#6B4A33" data-color="Cacao" data-img="img/crew-cacao.jpg" role="radio" aria-checked="false" aria-label="Cacao"></button>
+      </div>
+    </article>
+
+    <article class="product" data-type="buzo">
+      <div class="product__media">
+        <img src="img/crew-gris.jpg" alt="Buzo / Crew neck Gris" loading="lazy">
+      </div>
+      <div class="product__info">
+        <div class="product__name"><strong>Buzo / Crew neck</strong><span class="product__variant"><span data-color-label>Gris</span> · S · M</span></div>
+        <span class="product__price">$ —</span>
+      </div>
+      <div class="swatches" role="radiogroup" aria-label="Color">
+        <button type="button" class="swatch" style="--c:#161412" data-color="Negro" data-img="img/crew-negro.jpg" role="radio" aria-checked="false" aria-label="Negro"></button>
+        <button type="button" class="swatch swatch--light" style="--c:#E6DACB" data-color="Beige" data-img="img/crew-beige.jpg" role="radio" aria-checked="false" aria-label="Beige"></button>
+        <button type="button" class="swatch is-active" style="--c:#A3A09A" data-color="Gris" data-img="img/crew-gris.jpg" role="radio" aria-checked="true" aria-label="Gris"></button>
+        <button type="button" class="swatch" style="--c:#6B4A33" data-color="Cacao" data-img="img/crew-cacao.jpg" role="radio" aria-checked="false" aria-label="Cacao"></button>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="perks" aria-label="Beneficios">
+  <div class="perk"><h3 class="perk__title">Envíos a todo el país</h3><p>Te avisamos cuando sale tu pedido.</p></div>
+  <div class="perk"><h3 class="perk__title">Hasta 12 cuotas</h3><p>Pagás seguro con Mercado Pago.</p></div>
+  <div class="perk"><h3 class="perk__title"><a data-whatsapp href="#">¿Dudas? WhatsApp</a></h3><p>Te respondemos nosotros, no un bot.</p></div>
+</section>
+
+<section class="sizes" id="talles">
+  <div class="sizes__intro">
+    <p class="eyebrow">Guía de talles · Corte oversize</p>
+    <h2 class="h2 sizes__title">Encontrá tu talle</h2>
+    <h2 class="sizes__title-mobile">¿Qué talle soy?</h2>
+    <p class="sizes__text">Medidas de la prenda apoyada en plano. Si te gusta más al cuerpo, pedí un talle menos.</p>
+  </div>
+  <div class="sizes__tables">
+    <div class="tabs" role="tablist" aria-label="Prenda">
+      <button type="button" class="tab is-active" role="tab" id="tab-buzo" aria-selected="true" aria-controls="table-buzo">Buzo / Crew neck</button>
+      <button type="button" class="tab" role="tab" id="tab-canguro" aria-selected="false" aria-controls="table-canguro" tabindex="-1">Hoodie / Canguro</button>
+    </div>
+    <!-- Medidas en cm, prenda en plano. Pendiente confirmar hombros y manga del canguro M (ver project/CLAUDE.md). -->
+    <table class="size-table" id="table-buzo" role="tabpanel" aria-labelledby="tab-buzo">
+      <thead><tr><th scope="col"><span class="visually-hidden">Medida</span></th><th scope="col">S</th><th scope="col">M</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Ancho</th><td>59 cm</td><td>61 cm</td></tr>
+        <tr><th scope="row">Largo total</th><td>67 cm</td><td>70 cm</td></tr>
+        <tr class="size-table__extra"><th scope="row">Largo manga</th><td>74 cm</td><td>79 cm</td></tr>
+        <tr class="size-table__extra"><th scope="row">Hombros</th><td>20 cm</td><td>22 cm</td></tr>
+      </tbody>
+    </table>
+    <table class="size-table" id="table-canguro" role="tabpanel" aria-labelledby="tab-canguro" hidden>
+      <thead><tr><th scope="col"><span class="visually-hidden">Medida</span></th><th scope="col">S</th><th scope="col">M</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Ancho</th><td>58 cm</td><td>62 cm</td></tr>
+        <tr><th scope="row">Largo total</th><td>68 cm</td><td>70 cm</td></tr>
+        <tr class="size-table__extra"><th scope="row">Largo manga</th><td>72 cm</td><td>70 cm</td></tr>
+        <tr class="size-table__extra"><th scope="row">Hombros</th><td>19 cm</td><td>19 cm</td></tr>
+      </tbody>
+    </table>
+    <button type="button" class="sizes__more" aria-expanded="false">Ver guía completa →</button>
+  </div>
+</section>
+
+<section class="story" id="nosotros">
+  <div class="story__content">
+    <p class="story__script">Dos hermanos,</p>
+    <h2 class="story__title">Una idea y muchas ganas de crear.</h2>
+    <p class="story__text">Byron Bay nació en 2026 con una idea simple: buzos cómodos, de buena calidad, que quieras usar todos los días. Cada pedido lo armamos nosotros.</p>
+    <a class="story__link" href="#">Conocé la historia →</a>
+  </div>
+  <div class="story__media">
+    <!-- Reemplazar por la foto de los hermanos. -->
+    <img src="img/hoodie-gris.jpg" alt="Hoodie / Canguro Gris" loading="lazy">
+  </div>
+</section>
+
+<section class="reviews">
+  <figure class="reviews__quote">
+    <figcaption class="eyebrow">Lo que dicen</figcaption>
+    <blockquote>“Muy buena calidad, cómodo. Se nota que es un producto de buena calidad y llegó todo impecable.”</blockquote>
+    <p class="reviews__author">— Cliente Byron Bay</p>
+  </figure>
+  <div class="ig">
+    <a class="ig__tile" data-instagram href="#"><img src="img/detalles-crew.jpg" alt="Post de Instagram: los detalles del buzo" loading="lazy"></a>
+    <a class="ig__tile" data-instagram href="#"><img src="img/cual-va-con-vos.jpg" alt="Post de Instagram: ¿cuál va con vos?" loading="lazy"></a>
+    <a class="ig__tile" data-instagram href="#"><img src="img/detalles-hoodie.jpg" alt="Post de Instagram: los detalles del hoodie" loading="lazy"></a>
+    <a class="ig__tile ig__tile--cta" data-instagram href="#"><span class="ig__tag">#BYRONBAYUY</span><span>Seguinos en Instagram</span></a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__brand"><span class="footer__logo">Byron Bay</span><span class="footer__meta">Uruguay · Est. 2026</span></div>
+  <div class="footer__col"><span class="footer__label">Tienda</span><a href="#coleccion" data-filter-link="buzo">Buzo / Crew neck</a><a href="#coleccion" data-filter-link="hoodie">Hoodie / Canguro</a><a href="#talles">Guía de talles</a></div>
+  <div class="footer__col"><span class="footer__label">Ayuda</span><a href="#">Envíos</a><a href="#">Cambios</a><a data-whatsapp href="#">WhatsApp</a></div>
+  <div class="footer__col"><span class="footer__label">Novedades</span><span>Enterate primero de cada drop.</span>
+    <!-- Conectar "action" al servicio de newsletter (Mailchimp, Tiendanube, etc.). -->
+    <form class="newsletter" action="#" method="post">
+      <label class="visually-hidden" for="newsletter-email">Tu email</label>
+      <input id="newsletter-email" type="email" name="email" placeholder="Tu email" required>
+      <button type="submit">Unirme</button>
+    </form>
+  </div>
+</footer>
+
+<a class="wa-sticky" data-whatsapp href="#">Pedir por WhatsApp</a>
+
+<script src="main.js"></script>
+</body>
+</html>
